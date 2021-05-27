@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Consumer<UserModel?>(
           builder: (context, user, child) {
             if (user != null) {
-              return WelcomeScreen();
+              return WelcomeScreen(email: user.email);
             } else if (user == null) {
               return RegisterOrSignScreen();
             } else {

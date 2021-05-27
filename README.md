@@ -3,10 +3,9 @@
 Flutter IOS firebase register and login
 
 ## App Home
-
 <img src="ss1.png" width="250"><img src="ss2.png" width="250">
 
-## Podfile
+## Podfile changes
 ios/Podfile => platform :ios, '10.0'
 
 ```yaml
